@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Kreon:400,700|Open+Sans:400,700');
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;	
+	margin: 0;
+}
+
+.site-header {
+	background: url('img/header-background.jpg');
+  	background-size: cover;
+  	min-height: 500px;
+  	position: relative;
+}
+
+#logo {
+	font-family: 'Kreon';
+	font-size: 32px;
+}
+
+nav.top-navigation { 
+	width: 80%;  
+}
+
+nav.top-navigation ul {  
+	text-align: left;
+	padding: 0;
+	margin: 0;
+}
+
+nav.top-navigation ul li a {
+  	color: white;
+  	text-decoration: none;
+}
+
+.links {
+	text-transform: uppercase;
+	vertical-align: top;	
+	padding: 0 40px 0 40px;
+}
+
+.links:hover {
+	display: block;
+  	background-color: #f5c686;
+  	
+  	border-radius: 10px;
+}
+
+nav.top-navigation ul li {
+	display: inline-block;
+	margin: 15px;
+}
+
+.company-description {
+	position: absolute;
+	bottom: 25px;
+	margin-left: 10px;
+	color: white;
+}
+
+.company-description p {
+	text-transform: uppercase;
+	font-size: 25px;	
+}
+
+.company-description h1 {	
+	font-size: 30px;	
+}
+
+.about article {	
+	/*float: left;*/
+	width: 50%;
+	margin: 0;
+	display: inline-block;
+	color: white;
+}
+
+.about-icon {	
+	float: left;	
+	margin-top: 25px;
+}
+
+.about h2 {
+	text-transform: uppercase;
+}
+
+.about p {
+	padding: 0 15px 0 15px;
+}
+
+.portfolio {	
+	float: left;
+	background-color: #F4474F;
+}
+
+.results {
+	background-color: #31C7D8;
+}
+
+.specialties h1 {
+	font-size: 35px;
+}
+
+.spec-header {	
+	margin-left: 35px;
+}
+
+.spec-header p {	
+	color: gray;
+}
+
+.specialties article {	
+	margin: 25px 0 0 45px;
+	max-width: 350px;
+	display: inline-block;
+}
+
+.specialties article:nth-child(2) {	
+	border-right: 1px solid gray;
+	padding-right: 45px;
+}
+
+.specialties article:nth-child(3) {	
+	border-right: 1px solid gray;
+	padding-right: 45px;
+}
+
+.site-footer {
+	display: inline-block;
+	width: 100%;
+	margin-top: 35px;
+	background-color: #F4474F;
+}
+
+.site-footer h1 {
+	float: left;
+	margin: 50px 550px 50px 35px;
+	color: white;
+}
+
+.site-footer .button {	
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;	
+	text-transform: uppercase;
+	width: 150px;
+	border-radius: 10px;
+	display: inline-block;
+	margin: 55px 50px 50px 0;
+	color: #F4474F;
+	background: white;
+	padding: 10px 20px;	
+}
+
+.site-footer .button:hover {
+	color: #3B3A59;
+}
+
+.copyright {
+	text-align: center;
+}
